@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hol a piros?</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <label for="size">Add meg a négyzetrács méretét!</label><br>
+            <input type="text" id="size"><br>
+            <input type="button" value="Start" onclick="tableDraw()">
+        </form>
+        <table onclick="checker(event)"></table>
+        <div id="clicks"></div>
+        <div id="init" onclick="init()">Új játék</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+.container {
+    max-width: 800px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 0 auto;
+    min-height: 95vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 5% auto;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid greenyellow;
+    background-color: gray;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#init {
+    margin: 10px auto;
+    justify-content: center;
+    display: none;
+    height: 30px;
+    width: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    align-items: center;
+    cursor: pointer;
+}
